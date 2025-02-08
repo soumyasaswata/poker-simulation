@@ -1,6 +1,9 @@
-package com.pocker.pokersim.model
+package com.pocker.pokersim.service
 
 
+import com.pocker.pokersim.model.Card
+import com.pocker.pokersim.model.Rank
+import com.pocker.pokersim.model.Suit
 import kotlin.random.Random
 
 class Deck {

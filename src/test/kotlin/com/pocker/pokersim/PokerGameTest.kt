@@ -11,7 +11,6 @@ class PokerGameTest {
   fun testGameSetup() {
     val game = PokerGame(4)
     val results = game.playGame()
-    // We should get 4 players each with 5 cards
     assertEquals(4, results.size)
     results.forEach {
       assertEquals(5, it.hand.size)

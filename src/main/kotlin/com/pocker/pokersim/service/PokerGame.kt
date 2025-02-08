@@ -1,10 +1,9 @@
 package com.pocker.pokersim.service
 
 import com.pocker.pokersim.model.Card
-import com.pocker.pokersim.model.Deck
 import com.pocker.pokersim.model.HandEvaluation
+import com.pocker.pokersim.service.HandComparator.compareHands
 import com.pocker.pokersim.service.HandEvaluator.evaluateHand
-import com.pocker.pokersim.service.HandEvaluator.compareHands
 
 class PokerGame(private val numberOfPlayers: Int) {
   private val deck = Deck()
